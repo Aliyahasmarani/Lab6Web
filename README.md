@@ -151,7 +151,7 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
 ### Berikut CODE nya:
 
 ```
- <!-- About -->
+<!-- About -->
     <section id="about" style="background-color: #ffffff">
       <div class="container">
         <div class="row text-center mb-3">
@@ -167,16 +167,12 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              eos quod maiores facilis est in tenetur veritatis ducimus earum
-              debitis.
+             Saya Aliyah Asmarani, seorang mahasiswi berusia 19 tahun yang sedang mengejar gelar dalam teknik informatika di Universitas Pelita Bangsa. Saya lahir dan dibesarkan di kota Bekasi.
             </p>
           </div>
           <div class="col-md-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              mollitia tenetur optio magni nam? Aspernatur voluptatem inventore
-              sed aut harum sint amet at adipisci velit.
+              Saya adalah individu yang tekun, teliti, dan berkomitmen untuk mencapai tujuan. saya senang menghabiskan waktu bersama teman-teman dan keluarga. Saya selalu berusaha untuk menjadi pribadi yang lebih baik setiap hari dan menjalani hidup dengan semangat positif.
             </p>
           </div>
         </div>
@@ -189,11 +185,186 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
         ></path>
       </svg>
     </section>
-<!-- Akhir About -->
+    <!-- Akhir About -->
 ```
 
 ### OUTPUT nya:
 
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/817fd502-e010-4b65-a73d-bf0acf2212da)
+
+### PENJELASAN ABOUT
+```
+-> <section id="about" style="background-color: #ffffff">: Ini adalah elemen HTML yang digunakan untuk membuat bagian "About Me" atau "Tentang Saya." Latar belakangnya berwarna putih (kode warna #ffffff).
+
+-> <h2>About Me</h2>: Ini adalah judul bagian "About Me" yang menggambarkan bahwa ini adalah bagian di mana akan menceritakan tentang diri Saya.
+
+-> <img src="me2.jpeg" class="rounded-circle img-thumbnail" width="25%" alt="me">:Gambar ini memiliki bentuk bulat (rounded-circle) dan border yang khas (img-thumbnail).
+
+-> <div class="row justify-content-center fs-5 text-center">: Ini adalah baris (row) yang berisi dua kolom yang berisi teks. Teks ini digunakan untuk menjelaskan atau menceritakan tentang diri Saya.
+
+-> <svg>...</svg>: Ini adalah elemen SVG yang digunakan untuk menciptakan latar belakang dengan efek gelombang di bagian bawah teks dan gambar. Ini memberikan tampilan visual yang menarik pada bagian "About Me."
+```
+
+## Kelima, Selanjutnya saya membuat bagian hobi
+
+### Berikut CODE nya:
+
+```
+<!-- hobi -->
+    <section id="hobi">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>My Hobi</h2>
+            <br />
+          </div>
+        </div>
+        <div class="row justify-content-evenly">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="hobi1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Disini, Saya melukis sebuah kereta yang sedang melaju melewati lautan luas yang sangat indah pada pagi hari yang begituh indah.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="hobi2.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Lukisan ini saya buat ketika saya sedang liburan bersama keluarga ke Pantai Pasir Putih - Subang. Ini adalah salah satu wishlist saya yang sudah tercapai. Saya sangat senang dan bangga kepada diriku sendiri.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L34.3,149.3C68.6,139,137,117,206,106.7C274.3,96,343,96,411,112C480,128,549,160,617,181.3C685.7,203,754,213,823,192C891.4,171,960,117,1029,112C1097.1,107,1166,149,1234,138.7C1302.9,128,1371,64,1406,32L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir hobi -->
+```
+### OUTPUT nya:
+
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/219d98b4-29a2-4fc4-b4fd-a52aa24dd628)
+
+### PENJELASAN HOBI
+
+```
+-> <section id="hobi">: Ini adalah elemen HTML yang digunakan untuk membuat bagian "Hobi." Bagian ini didesain untuk berbicara tentang minat atau kegemaran Saya.
+
+-> <h2>My Hobi</h2>: Ini adalah judul bagian "My Hobi" yang menggambarkan bahwa Anda akan berbicara tentang minat atau hobi Saya.
+
+-> Kemudian, ada dua kartu (card) yang menampilkan minat atau hobi Anda. Setiap kartu memiliki gambar (hobi1.jpeg dan hobi2.jpeg) yang mencerminkan minat atau hobi tersebut. Di bawah gambar, terdapat deskripsi singkat yang menjelaskan apa yang Anda suka tentang minat atau hobi tersebut.
+
+-> <svg>...</svg>: Ini adalah elemen SVG yang digunakan untuk menciptakan latar belakang dengan efek gelombang di bagian bawah teks dan gambar. Ini memberikan tampilan visual yang menarik pada bagian "About Me."
+```
+
+## Keenam, Saya mebuat bagian kontak
+
+### Berikut CODE nya:
+
+```
+ <!-- kontak -->
+    <section id="kontak">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#001c30"
+          fill-opacity="1"
+          d="M0,64L34.3,58.7C68.6,53,137,43,206,64C274.3,85,343,139,411,176C480,213,549,235,617,240C685.7,245,754,235,823,197.3C891.4,160,960,96,1029,64C1097.1,32,1166,32,1234,58.7C1302.9,85,1371,139,1406,165.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhir kontak -->
+```
+
+### OUTPUT nya:
+
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/6659b6f8-c60e-4a78-9709-a42542209a27)
+
+### PENJELASAN KONTAK
+
+```
+-> <section id="kontak">: Ini adalah elemen HTML yang digunakan untuk membuat bagian "Kontak." Bagian ini bertujuan untuk memudahkan orang yang mengunjungi situs Anda untuk menghubungi Anda.
+
+-> <h2>Contact Me</h2>: Ini adalah judul bagian "Contact Me" yang menggambarkan bahwa ini adalah bagian di mana orang dapat menghubungi Anda.
+
+-> Selanjutnya, ada formulir yang memungkinkan pengunjung untuk mengirim pesan kepada Anda. Formulir ini mencakup beberapa elemen:
+
+"Nama Lengkap": Ini adalah tempat pengunjung dapat memasukkan nama mereka.
+"Email": Ini adalah tempat pengunjung dapat memasukkan alamat email mereka.
+"Pesan": Ini adalah area di mana pengunjung dapat menulis pesan atau pertanyaan kepada Anda.
+"Submit": Ini adalah tombol yang akan mengirimkan pesan yang telah diisi kepada Anda.
+
+-> Di bawah formulir, terdapat elemen SVG yang menciptakan latar belakang dengan efek gelombang di bagian bawah formulir. Ini memberikan tampilan visual yang menarik pada bagian "Kontak."
+```
+
+## TAMBAHAN, SAYA DISINI MENAMBAHKAN SEBAGAI BERIKUT:
+
+```
+    <!-- navbar interaktif -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".navbar-nav .nav-link").on("click", function () {
+          $(".navbar-nav .nav-link").removeClass("active"); // Hapus kelas "active" dari semua tautan
+          $(this).addClass("active"); // Tambahkan kelas "active" ke tautan yang diklik
+        });
+      });
+    </script>
+    <!-- akhir -->
+```
+
+## PENJELASANNYA
+
+Fungsi utamanya adalah untuk membuat setiap tautan di navbar menjadi "aktif" (dengan menambahkan kelas "active") saat tautan tersebut diklik oleh pengguna. Ini memberikan umpan balik visual kepada pengguna, menunjukkan tautan yang sedang terpilih atau sedang dilihat.
+
+Dengan demikian, kode JavaScript ini memberikan efek visual kepada pengguna dengan menyorot tautan yang sedang mereka klik, sehingga mereka tahu halaman mana yang sedang mereka lihat atau navigasikan. Ini adalah fitur yang umum digunakan dalam navigasi situs web untuk memberikan umpan balik interaktif kepada pengguna.
 
 
 

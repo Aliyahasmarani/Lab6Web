@@ -343,6 +343,45 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
 -> Di bawah formulir, terdapat elemen SVG yang menciptakan latar belakang dengan efek gelombang di bagian bawah formulir. Ini memberikan tampilan visual yang menarik pada bagian "Kontak."
 ```
 
+## Terakhir, Saya membuat bagian footer
+
+### Berikut CODE nya:
+
+```
+<!-- footer -->
+    <footer
+      class="text-white text-center pb-5"
+      style="background-color: #001c30"
+    >
+      <p>
+        2023 -
+        <a
+          href="https://www.instagram.com/kampuspelitabangsa/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+          class="text-white fw-bold"
+          >UNIVERSITAS PELITA BANGSA
+          <i class="bi bi-chat-heart-fill text-danger"></i
+        ></a>
+      </p>
+    </footer>
+    <!-- akhir footer -->
+```
+
+### OUTPUT nya:
+
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/6359a94a-d6ed-4c75-8c64-2c102a19ed42)
+
+### PENJELASAN FOOTER
+
+```
+-> <footer class="text-white text-center pb-5" style="background-color: #001c30">: Ini adalah elemen HTML yang digunakan untuk membuat bagian "Footer." Bagian bawah halaman ini biasanya memiliki latar belakang berwarna biru tua (kode warna #001c30) dan tulisan putih (text-white).
+
+-> <p>...</p>: Ini adalah paragraf yang berisi teks dan tautan. Di dalamnya, Anda menampilkan tahun "2023" yang menunjukkan tahun situs web ini dibuat, dan juga ada tautan ke akun Instagram Universitas Pelita Bangsa.
+
+-> <a href="https://www.instagram.com/kampuspelitabangsa/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="text-white fw-bold">: Ini adalah tautan (link) ke akun Instagram Universitas Pelita Bangsa. Ketika tautan ini diklik, pengunjung akan diarahkan ke halaman Instagram Universitas Pelita Bangsa.
+
+-> <i class="bi bi-chat-heart-fill text-danger"></i>: Ini adalah ikon yang digunakan untuk menambahkan elemen visual di footer. Dalam contoh ini, itu adalah ikon hati merah yang mewakili ikon cinta.
+```
+
 ## TAMBAHAN, SAYA DISINI MENAMBAHKAN SEBAGAI BERIKUT:
 
 ```
@@ -366,6 +405,9 @@ Fungsi utamanya adalah untuk membuat setiap tautan di navbar menjadi "aktif" (de
 
 Dengan demikian, kode JavaScript ini memberikan efek visual kepada pengguna dengan menyorot tautan yang sedang mereka klik, sehingga mereka tahu halaman mana yang sedang mereka lihat atau navigasikan. Ini adalah fitur yang umum digunakan dalam navigasi situs web untuk memberikan umpan balik interaktif kepada pengguna.
 
+## TAMPILAN KESELURUHAN
+
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/2d67be06-269f-4988-b59b-7969c08764ea)
 
 
 

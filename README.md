@@ -2,7 +2,7 @@
 
 # 1. Membuat file html dengan nama `lab6_css_framework`
 
-# 2. Membuat Layout Sederhana menggunakan Bootstrap
+# 2. Membuat Layout Sederhana menggunakan Bootstrap v5.0
 
 ## TAMPILAN KESELURUHAN
 

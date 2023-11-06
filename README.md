@@ -4,7 +4,7 @@
 
 # 2. Membuat Layout Sederhana menggunakan Bootstrap
 
-## Pertama, kita mulai dengan tamplate codingan html dari bootstrap. Sebagai berikut:
+## Pertama, Saya mulai dengan tamplate codingan html dari bootstrap. Sebagai berikut:
 
 ```
 <!doctype html>

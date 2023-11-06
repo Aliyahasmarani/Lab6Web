@@ -4,6 +4,10 @@
 
 # 2. Membuat Layout Sederhana menggunakan Bootstrap
 
+## TAMPILAN KESELURUHAN
+
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/2d67be06-269f-4988-b59b-7969c08764ea)
+
 ## Pertama, Saya mulai dengan tamplate codingan html dari bootstrap. Sebagai berikut:
 
 ```
@@ -413,9 +417,6 @@ Fungsi utamanya adalah untuk membuat setiap tautan di navbar menjadi "aktif" (de
 
 Dengan demikian, kode JavaScript ini memberikan efek visual kepada pengguna dengan menyorot tautan yang sedang mereka klik, sehingga mereka tahu halaman mana yang sedang mereka lihat atau navigasikan. Ini adalah fitur yang umum digunakan dalam navigasi situs web untuk memberikan umpan balik interaktif kepada pengguna.
 
-## TAMPILAN KESELURUHAN
-
-![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/2d67be06-269f-4988-b59b-7969c08764ea)
 
 
 

@@ -81,6 +81,8 @@ Nah, disini saya hanya memakai yang option 1. Kenapa? Karena, lebih mudah. satu 
     <!-- Akhir Navbar -->
 ```
 
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/5fe00435-427e-484a-b4f6-cbdebd8352d7)
+
 ### OUTPUT nya:
 
 ![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/32240d85-e0b4-4e46-918c-0eaa2a922bef)
@@ -127,6 +129,7 @@ Di bagian navbar, saya juga memakai tamplate dari bootstrap.
     </section>
 <!-- Akhir Jumbotron -->
 ```
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/09bfa7dd-3d78-4dff-bf4b-aa937fc43e87)
 
 ### OUTPUT nya:
 
@@ -187,6 +190,7 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
     </section>
     <!-- Akhir About -->
 ```
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/5fdb40d3-9b34-4c73-bbb3-4915378ae65c)
 
 ### OUTPUT nya:
 
@@ -252,6 +256,8 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
     </section>
     <!-- akhir hobi -->
 ```
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/fec27604-9870-45a6-b468-210c5a44241d)
+
 ### OUTPUT nya:
 
 ![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/219d98b4-29a2-4fc4-b4fd-a52aa24dd628)
@@ -321,6 +327,7 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
     </section>
     <!-- akhir kontak -->
 ```
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/10bca91f-441b-4b28-982c-ccaf32bb8261)
 
 ### OUTPUT nya:
 
@@ -365,6 +372,7 @@ Disini, saya menggunakan tamplate boostrap yang versi 4
     </footer>
     <!-- akhir footer -->
 ```
+![image](https://github.com/Aliyahasmarani/Lab6Web/assets/115197672/7f42526a-ae00-4299-8c47-36bd43532c7b)
 
 ### OUTPUT nya:
 
